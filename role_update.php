@@ -57,7 +57,7 @@
                                             
                                         </div>
                                        
-                                        <button type="update" name="submit" class="btn btn-primary">Sign in</button>
+                                        <button type="update" name="update" class="btn btn-primary">update</button>
                                     </form>
                                 </div>
                             </div>
@@ -67,6 +67,15 @@
 
 
 <?php
+  if(isset($_POST['update'])){
+    $role_name = $_POST['role_name'];
+    $sql = "update role set role_name = '$role_name' WHERE id = $ID";
+    $result = mysqli_query($conn, $sql);
+   echo"<script> 
+   alert('Role updated successfully');
+   window.location.href='role_show.php';
+   </script>";
+}
 include("footer.php");
 
 ?>

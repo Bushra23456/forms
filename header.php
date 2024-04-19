@@ -178,16 +178,16 @@
                     <li><a class="has-arrow" href="javascript:void()" aria-expanded="false"><i
                                 class="icon icon-single-04"></i><span class="nav-text">Role</span></a>
                         <ul aria-expanded="false">
-                            <li><a href="./index.html">Role add</a></li>
-                            <li><a href="./index2.html">Role show</a></li>
+                            <li><a href="role_add.php">Role add</a></li>
+                            <li><a href="role_show.php">Role show</a></li>
                         </ul>
                     </li>
 
                     <li><a class="has-arrow" href="javascript:void()" aria-expanded="false"><i
                                 class="icon icon-single-04"></i><span class="nav-text">user</span></a>
                         <ul aria-expanded="false">
-                            <li><a href="./index.html">user add</a></li>
-                            <li><a href="./index2.html">user show</a></li>
+                            <li><a href="user_add.php">user add</a></li>
+                            <li><a href="user_show.php">user show</a></li>
                         </ul>
                     </li>
                     <li><a class="has-arrow" href="javascript:void()" aria-expanded="false"><i

@@ -43,7 +43,7 @@
                                             
                                         </div>
                                        
-                                        <button type="submit" name="submit" class="btn btn-primary">Sign in</button>
+                                        <button type="submit" name="submit" class="btn btn-primary">add</button>
                                     </form>
                                 </div>
                             </div>
@@ -62,7 +62,9 @@
         $result=mysqli_query($conn,$sql);
       
         echo"<script>
-        alert('your role has been added');
+        alert('your role has been updated');
+window.location.href='role_show.php';
+
         </script>";
     }
 
