@@ -37,7 +37,15 @@ include("header.php");
                                             <div class="form-group col-md-12">
                                                 <label>State</label>
                                                 <select id="inputState" class="form-control">
-                                                    <option >Choose...</option>
+                                                    <?php
+                                                    while($rows = mysqli_fetch_assoc($result)){
+                                                     ?>
+
+                                                <option value="<?php echo $rows['id']?>"><?php echo $rows['role_name']   ?></option> 
+                                                    
+                                                   <?php } ?>
+
+                                                    
                                                    
                                                 </select>
                                             </div>
